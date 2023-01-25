@@ -2,8 +2,8 @@ language: pt
 responses:
   intents:
     HassTurnOff:
-      default: Turned off {{ slots.name }}
-      lights_area: Turned off lights in {{ slots.area }}
-      fans_area: Turned off fans in {{ slots.area }}
-      cover: Closed {{ slots.name }}
-      cover_area: Closed {{ slots.area }}
+      default: Desligar {{ slots.name }}
+      lights_area: Desligar as luzes {{ slots.area }}
+      fans_area: Desligar as ventoinhas {{ slots.area }}
+      cover: Fechar {{ slots.name }}
+      cover_area: Fechar {{ slots.area }}
